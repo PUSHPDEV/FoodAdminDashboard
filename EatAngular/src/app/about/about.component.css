@@ -1,0 +1,53 @@
+.about {
+    background: url(/assets/banner2.jpg);
+}
+
+.about h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 55px;
+    padding: 50px;
+}
+
+.about h5 {
+
+    font-weight: 500;
+    font-size: 1.3em;
+    line-height: 1.4em;
+    /* margin-bottom: 15px; */
+    padding: 50px;
+    color: #ffffff;
+}
+
+.purpose {
+    background-color: #f5851f;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.purpose h3 {
+    color: #fff;
+    font-size: 30px;
+
+    font-size: 1.825em;
+    /* margin-bottom: 30px; */
+    line-height: 1.4em;
+    font-weight: 400;
+}
+
+.para {
+    background-color: rgb(204, 161, 182);
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    color: #000000;
+    word-spacing: 3px;
+    font-size: 30px;
+
+    font-size: 1.825em;
+    line-height: 1.4em;
+    font-weight: 400;
+}
