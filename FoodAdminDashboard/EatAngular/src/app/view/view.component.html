@@ -1,0 +1,35 @@
+<!-- <div class="container" align="center"> -->
+
+<div class="table" style="background-color: black; padding: 100px;">
+    <div class="view">
+
+        <h2 class="text-center"> <u>View Food List: </u></h2>
+        <table border="4" align="center" class="table table-success table-hover ">
+            <thead class="head">
+                <tr class="text-uppercase">
+                    <th> FID </th>
+                    <th> Name </th>
+                    <th> Type</th>
+                    <th> Origin </th>
+                    <th> Serving </th>
+                    <th> Price </th>
+                </tr>
+            </thead>
+
+
+            <tbody>
+                <tr *ngFor="let food of food">
+                 
+                    <td> {{food.fid}} </td>
+                    <td> {{food.name}} </td>
+                    <td> {{food.type}} </td>
+                    <td> {{food.origin}} </td>
+                    <td>{{food.serving}}</td>
+                    <td>{{food.price}}</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+</div>
